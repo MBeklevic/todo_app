@@ -1,0 +1,36 @@
+.EditForm {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.EditForm-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.EditForm-input:focus {
+    outline: none;
+}
+
+.EditForm-button {
+    background-color: #f44336;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 4px 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+
+}

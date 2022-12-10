@@ -1,0 +1,47 @@
+.Todo {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: #571616;
+    cursor: pointer;
+}
+
+.Todo-done {
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+.Todo-task {
+    margin-left: 10px;
+
+}
+
+.Todo-editButton {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: red;
+    padding: 2px 6px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.Todo-deleteButton {
+    margin: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: red;
+    padding: 2px 6px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
